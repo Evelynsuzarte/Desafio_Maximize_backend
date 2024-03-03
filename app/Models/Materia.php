@@ -9,7 +9,7 @@ class Materia extends Model
 {
 
     protected $fillable = [
-        'ID',
+        'id',
         'titulo',
         'descricao',
         'texto_completo',
