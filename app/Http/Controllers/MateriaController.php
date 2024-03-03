@@ -10,6 +10,7 @@ class MateriaController extends Controller
 {
     /**
      * Mostra todas as matérias com paginação.
+     * @return Materia 
      */
     public function materias(string $pagina)
     {
@@ -20,6 +21,7 @@ class MateriaController extends Controller
 
     /**
      * Mostra a matéria desejada
+     * @return Materia 
      */
     public function mostrar_materia(string $titulo)
     {
