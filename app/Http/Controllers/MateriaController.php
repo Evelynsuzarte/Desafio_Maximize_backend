@@ -9,22 +9,29 @@ use App\Models\Materia;
 class MateriaController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Mostra todas as matérias com paginação.
      */
-    public function index(string $pagina)
+    public function materias(string $pagina)
     {
-        //
+        
         return Materia::select('titulo', 'descricao', 'imagem', 'data_de_publicacao')->paginate(5, ['*'], 'pagina', $pagina);
 
     }
 
     /**
-     * Display the specified resource.
+     * Mostra a matéria desejada
      */
-    public function show(string $titulo)
+    public function mostrar_materia(string $titulo)
     {
-        //
-        return Materia::where('titulo', $titulo)->firstOrFail();
+
+        try{
+            $materia = Materia::where('titulo', $titulo)->firstOrFail();
+            return $materia;
+            
+        }catch(\Illuminate\Database\Eloquent\ModelNotFoundException $e){
+            return response()->json(['mensagem' => 'Matéria não encontrada.'], 404);
+        }
+        
 
     }
 

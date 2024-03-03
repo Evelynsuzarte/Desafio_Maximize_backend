@@ -18,7 +18,6 @@ return new class extends Migration
             $table->string('texto_completo');
             $table->string('imagem');
             $table->date('data_de_publicacao');
-
             $table->timestamp('created_at');
         });
     }
