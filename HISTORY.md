@@ -45,10 +45,10 @@
     <h1>Requisitos</h1>
 	<ul>
 		<li>Criação da API :heavy_check_mark:</li>
-		<li>Código entregue através de um repositório público:heavy_check_mark:</li>
-		<li>A API deve conter dois endpoints: o primeiro deve entregar uma lista de matérias com paginação e o segundo deve entregar a matéria completa:heavy_check_mark:</li>
-		<li>A matéria deve conter os campos: 'título', 'descricao', 'imagem', 'texto_completo', 'data_de_publicacao':heavy_check_mark:</li>
-		<li>API desenvolvida com a linguaguem PHP e framework Laravel ou Lumen:heavy_check_mark:</li>
+		<li>Código entregue através de um repositório público :heavy_check_mark:</li>
+		<li>A API deve conter dois endpoints: o primeiro deve entregar uma lista de matérias com paginação e o segundo deve entregar a matéria completa :heavy_check_mark:</li>
+		<li>A matéria deve conter os campos: 'título', 'descricao', 'imagem', 'texto_completo', 'data_de_publicacao' :heavy_check_mark:</li>
+		<li>API desenvolvida com a linguaguem PHP e framework Laravel ou Lumen :heavy_check_mark:</li>
 </div>
 
 <div id="como-rodar-o-codigo">
@@ -59,6 +59,8 @@
         <p>Execute o comando para criar a tabela no banco de dados:</p>
         <br></br><b>php artisan migrate</b>
         <p>2. Criar as seeders para preencher o banco de dados com dados aleatórios</p>
+        <br></br><b>php artisan make:seeder DatabaseSeeder</b>
+        <p>3. Ativar o Apache e MySQL no XAMPP</p>
         <br></br><b>php artisan make:seeder DatabaseSeeder</b>
     </div>
     <div>
