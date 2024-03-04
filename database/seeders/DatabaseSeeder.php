@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder
     public function run(): void
     {
         //
-        foreach (range(1, 8) as $index) {
+        foreach (range(1, 20) as $index) {
             DB::table('materias')->insert([
                 'id' => $index,
                 'titulo' => Str::random(10),
