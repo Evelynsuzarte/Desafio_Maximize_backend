@@ -35,7 +35,6 @@
         <li><a href="https://laravel.com/docs/10.x/installation">Laravel</a></li>
         <li><a href="https://www.apachefriends.org/pt_br/index.html">XAMPP (para instalar o PHP junto) ou outro programas para servidor</a></li>
         <li><a href="https://getcomposer.org/download/">Composer</a></li>
-        <li><a href="https://www.docker.com/products/docker-desktop/">Docker</a></li>
 	</ul>
 </div>
 
@@ -123,12 +122,12 @@
 
 <div id="ideias-futuras">
 	<h1>Ideias futuras</h1>
-	<p>Caso houvesse mais tempo para o projeto, eu gostaria de poder fazer o frontend, para tornar o sistema mais interativo, tendo uma interface com o usuário, além também do uso de imagens no front, os nomes de imagens usadas nesse projeto foram fictícias, não existem. Também gostaria de expandir mais alguns detalhes sobre a matéria, poderia ter o nome do autor, site de referência, informações de localidade, tipo, entre outros. Além disso, o projeto poderia ter mais endpoints, como adicionar ou remover uma matéria. </p>
+	<p>Caso houvesse mais tempo para o projeto, eu gostaria de poder fazer o frontend, para tornar o sistema mais interativo, tendo uma interface com o usuário, além também do uso de imagens no front, os nomes de imagens usadas nesse projeto foram fictícias, não existem. Também gostaria de expandir mais alguns detalhes sobre a matéria, poderia ter o nome do autor, site de referência, informações de localidade, tipo, entre outros. Além disso, o projeto poderia ter mais endpoints, como adicionar ou remover uma matéria. Uma boa opção seria também o teste da API via container Docker, seria mais prático e mais fácil de testar. </p>
 </div>
 
 <div id="conclusao">
 	<h1>Conclusão</h1>
-	<p>A API funciona como esperado, cumprindo todos os requisitos, o projeto apenas não possui o frontend, colocado como requisito opcional. </p>
+	<p>A API funciona como esperado, cumprindo todos os requisitos, o projeto apenas não possui o frontend, colocado como requisito opcional, além do teste via container docker. </p>
 </div>
 
 </div>
